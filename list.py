@@ -1,0 +1,31 @@
+scores=[90,19,289,16,144]
+pincodes=(560061, 560070,540087, 550014)
+#list taking a tuple as a parameter
+pins=list(pincodes)
+print(scores, "\n", pins)
+pins += [78,15,167,89]
+print(pins)
+print(pins[3])
+print([100,20,66] + [78, 156, 22])
+t=([100,20,66],[78,156,22])
+print(t)
+t1=[99,166,78,23].__add__([78, 77, 22, 66])
+print(t1)
+print(t1)
+t1[4]=700
+print(t1)
+del(t1[4])
+print(t1)
+del(t1[2:5])
+print (t1)
+t1.remove(22)
+print(t1)
+t1+= [ 78,166,295,45,23]
+t1.reverse()
+print(t1)
+t1.sort()
+print(t1)
+t1.sort(reverse=True)
+print(t1)
+#t1.sort()
+#t1.reverse()
